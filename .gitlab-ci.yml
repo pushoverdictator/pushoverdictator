@@ -31,7 +31,6 @@ test:angularfrontend:
     - curl -sL https://deb.nodesource.com/setup_13.x | bash -
     - apt-get update
     - apt-get install -y nodejs
-    - cd angularfrontend
     - npm --version
     - time npm install -g yarn
     - date
